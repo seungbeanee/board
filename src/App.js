@@ -17,8 +17,8 @@ function App() {
           <Route path='/new' element={<New />} />
           <Route path='/edit/:id' element={<Edit />} />
           <Route path='/BoardList/:id' element={<BoardList />} />
-          <Route path='/Join/:id' element={<Join />} />
-          <Route path='/Login/:id' element={<Login />} />
+          <Route path='/Join' element={<Join />} />
+          <Route path='/Login' element={<Login />} />
         </Routes>
       </div>
     </BrowserRouter>
